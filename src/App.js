@@ -13,6 +13,18 @@ import CloseRoundedIcon from '@material-ui/icons/CloseRounded';
 import LaunchIcon from '@material-ui/icons/Launch';
 import LaunchRoundedIcon from '@material-ui/icons/LaunchRounded';
 
+import FiberManualRecordIcon from '@material-ui/icons/FiberManualRecord';
+import FiberManualRecordRoundedIcon from '@material-ui/icons/FiberManualRecordRounded';
+
+import SearchIcon from '@material-ui/icons/Search';
+import SearchRoundedIcon from '@material-ui/icons/SearchRounded';
+
+import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
+import ExpandMoreRoundedIcon from '@material-ui/icons/ExpandMoreRounded';
+
+import AssignmentTurnedInIcon from '@material-ui/icons/AssignmentTurnedIn';
+import AssignmentTurnedInRoundedIcon from '@material-ui/icons/AssignmentTurnedInRounded';
+
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
@@ -45,6 +57,10 @@ export default function SvgMaterialIcons () {
           <KeyboardArrowDownIcon />
           <CloseIcon />
           <LaunchIcon />
+          <FiberManualRecordIcon />
+          <SearchIcon />
+          <ExpandMoreIcon />
+          <AssignmentTurnedInIcon />
         </Grid>
         <Grid>
           <Typography variant='h1'>&nbsp;</Typography>
@@ -57,6 +73,10 @@ export default function SvgMaterialIcons () {
           <KeyboardArrowDownRoundedIcon />
           <CloseRoundedIcon />
           <LaunchRoundedIcon />
+          <FiberManualRecordRoundedIcon />
+          <SearchRoundedIcon />
+          <ExpandMoreRoundedIcon />
+          <AssignmentTurnedInRoundedIcon />
         </Grid>
       </Grid>
       <Divider />
@@ -75,6 +95,10 @@ export default function SvgMaterialIcons () {
           <KeyboardArrowDownIcon fontSize='inherit' />
           <CloseIcon fontSize='inherit' />
           <LaunchIcon fontSize='inherit' />
+          <FiberManualRecordIcon fontSize='inherit' />
+          <SearchIcon fontSize='inherit' />
+          <ExpandMoreIcon fontSize='inherit' />
+          <AssignmentTurnedInIcon fontSize='inherit' />
         </Grid>
       </Grid>
       <Grid
@@ -92,6 +116,10 @@ export default function SvgMaterialIcons () {
           <KeyboardArrowDownRoundedIcon fontSize='inherit' />
           <CloseRoundedIcon fontSize='inherit' />
           <LaunchRoundedIcon fontSize='inherit' />
+          <FiberManualRecordRoundedIcon fontSize='inherit' />
+          <SearchRoundedIcon fontSize='inherit' />
+          <ExpandMoreRoundedIcon fontSize='inherit' />
+          <AssignmentTurnedInRoundedIcon fontSize='inherit' />
         </Grid>
       </Grid>
     </Container >
